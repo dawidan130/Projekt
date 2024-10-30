@@ -8,6 +8,7 @@ array_copy = itk.array_from_image(itk_image)
 
 array_copy = np.squeeze(array_copy)
 
+
 plt.imshow(array_copy, cmap='Greys')
 plt.axis('off')
 plt.show()
